@@ -1,0 +1,30 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    size: screen;
+    background: lightblue;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.item img{
+    border-radius: 15px;
+}
+
+h1{
+    font-size: 15px;
+}
