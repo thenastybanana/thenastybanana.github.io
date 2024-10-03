@@ -16,6 +16,9 @@ body{
 
 }
 
+#ebby{
+    float:right;}
+
  header li{
     display: inline;
     padding-left: 45px;
