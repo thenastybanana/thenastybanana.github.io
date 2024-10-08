@@ -52,7 +52,6 @@ h2{
         flex-direction: row;
         flex-grow: 1;
         gap: 1rem;
-        align-items: center;
         justify-content: space-around;
     padding-left:10px;
 }
