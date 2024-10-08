@@ -20,7 +20,9 @@ section{
         padding-left:2rem;
 }
 #ebby{
-    float:right;}
+    float:right;
+font-size: 32px;
+}
 
  header li{
     display: inline;
