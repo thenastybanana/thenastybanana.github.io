@@ -3,7 +3,6 @@ body{
     font-family: sans-serif;
     font-size: 18px;
     margin: 0;
-    padding-left:2rem;
 }
     header{
         background-color: #f1c40f;
@@ -17,6 +16,9 @@ body{
 
 }
 
+section{
+        padding-left:2rem;
+}
 #ebby{
     float:right;}
 
