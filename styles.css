@@ -3,6 +3,7 @@ body{
     font-family: sans-serif;
     font-size: 18px;
     margin: 0;
+    padding-left:2rem;
 }
     header{
         background-color: #f1c40f;
@@ -53,7 +54,7 @@ h2{
         flex-grow: 1;
         gap: 1rem;
         justify-content: space-around;
-    padding-left:10px;
+    
 }
 
 
