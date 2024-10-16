@@ -46,10 +46,14 @@ img {
     height: 5%;
     
 } */
+
 h2{
-    bold
+font-size: 32px;
+    bold;
 }
 
+h3{
+  font-size: 32px;
 
 .container{
         display: flex;
@@ -77,6 +81,7 @@ aside{
     border: solid;
     border-color: white;
     padding-right: 2rem;
+    font-size: 32px;
 }
 
 footer{
