@@ -27,7 +27,6 @@ font-size: 32px;
  header li{
     display: inline;
     padding-left: 45px;
-    left: -15px;
 }
 
 
@@ -36,20 +35,12 @@ font-size: 32px;
     color: #fff;
     text-transform: bold;
 }
-/* .img_container{
-    margin-left: 10%;
-    margin-top: 10%;
-}
-img {
-    border-radius: 25%;
-    width: 20%;
-    height: 5%;
-    
-} */
+
+
+
 
 h2{
 font-size: 32px;
-    bold;
 }
 
 h3{
@@ -63,12 +54,6 @@ h3{
         gap: 1rem;
 }
 
-
-/* .container{
-    width: 80%;
-/*     margin: 0 auto; */
-} */
-
 section{
     float: left;
     width: 70%;
@@ -80,7 +65,6 @@ aside{
     width: 25%;
     border: solid;
     border-color: white;
-    padding-right: 2rem;
     font-size: 32px;
 }
 
