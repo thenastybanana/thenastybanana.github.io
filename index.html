@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,20 +9,18 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #3b2f2f; /* brown */
-      color: #fff;
+      background-color: #f5e6d3;
+      color: #333;
     }
 
     header {
-      background: linear-gradient(90deg, #ff7b00, #b22222);
+      background: linear-gradient(90deg, #ff9a3c, #d65a5a);
       padding: 20px;
       text-align: center;
       border-bottom: 3px solid white;
     }
 
-    header h1 {
-      margin: 0;
-    }
+    header h1 { margin: 0; }
 
     nav a {
       margin: 0 15px;
@@ -35,43 +34,72 @@
       max-height: 500px;
       object-fit: cover;
       border-bottom: 4px solid white;
+      border-radius: 0 0 20px 20px;
     }
 
-    .container {
-      padding: 20px;
-    }
+    .container { padding: 20px; }
 
-    .about {
-      background-color: #ffb347; /* fall yellow */
-      color: black;
+    .card {
       padding: 20px;
-      border: 2px solid white;
       margin-bottom: 20px;
+      border: 2px solid white;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
-    .contact {
-      background-color: #8b0000;
-      padding: 15px;
+    .about { background-color: #ffd27f; }
+    .services { background-color: #ffb88c; }
+    .contact { background-color: #ff9e9e; }
+    .testimonials { background-color: #ffe4b5; }
+
+    .cta {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 20px;
+      background-color: #d65a5a;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
       border: 2px solid white;
     }
 
     .map {
       margin-top: 20px;
       border: 3px solid white;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      padding: 10px 15px;
+      border-radius: 20px;
+      border: none;
+      background-color: #ff7b00;
+      color: white;
+      cursor: pointer;
     }
 
     footer {
       text-align: center;
       padding: 15px;
-      background-color: #b22222;
+      background-color: #d65a5a;
       border-top: 3px solid white;
+      border-radius: 20px 20px 0 0;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Ebenezer Iron Work</h1>
+  <h1>Ebenezer Iron</h1>
   <nav>
     <a href="index.html">Home</a>
     <a href="blog.html">Blog</a>
@@ -84,15 +112,41 @@
 
 <div class="container">
 
-  <div class="about">
+  <div class="card about">
     <p>
-      hey, checking up on me again? That's ok, I love my fan girlies. Show your grandma how cute I am while you are at it, and see if she knows any ladies who want a big buff guy to come weld stuff around the house. I'd love to let her hold my arm while she walks up the stairs, but getting a proper hand rail in place might be better for her. Or, whatever is needed...
+      hey, checking up on me again? That's ok, I love my fan girlies. Show your grandma how cute I am while you are at it, and see if she knows any ladies who want a big buff guy to come weld stuff around the house. I'd love to let her hold my arm while she walks up the stairs, but getting a proper hand rail in place might be better for her. I can meet your needs.
     </p>
   </div>
 
-  <div class="contact">
-    <h3>Contact</h3>
-    <p>Email: ebenezeriron.work@gmail.com</p>
+  <div class="card services">
+    <h3>Services</h3>
+    <ul>
+      <li>Handrails</li>
+      <li>Chairs</li>
+      <li>Small trailer repairs</li>
+      <li>Gates</li>
+      <li>Custom metal fabrication</li>
+    </ul>
+  </div>
+
+  <div class="card contact">
+    <h3>Get a Quote</h3>
+    <p>Email me for a free quote:</p>
+    <p><strong>ebenezeriron.work@gmail.com</strong></p>
+    <p>Please reach out via email before talking over the phone.</p>
+    <a class="cta" href="mailto:ebenezeriron.work@gmail.com">Get a Quote</a>
+  </div>
+
+  <div class="card testimonials">
+    <h3>Testimonials</h3>
+    <p>"Eben made a handrail for me that helped me get into the house" - Sharon</p>
+    <p>"Eben welded a chair leg back together for me that I was going to have to throw out" - Michael</p>
+  </div>
+
+  <div class="card">
+    <h3>Service Area</h3>
+    <p>Small mobile welder in Saint Paul, Minnesota and Minneapolis, Minnesota.</p>
+    <p>Serving Saint Paul, Minneapolis, and surrounding areas.</p>
   </div>
 
   <div class="map">
@@ -101,9 +155,18 @@
       width="100%"
       height="300"
       style="border:0;"
-      allowfullscreen=""
       loading="lazy">
     </iframe>
+  </div>
+
+  <div class="card">
+    <h3>Contact Form</h3>
+    <form action="mailto:ebenezeriron.work@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="What do you need welded?" required></textarea>
+      <button type="submit">Send</button>
+    </form>
   </div>
 
 </div>
@@ -115,10 +178,7 @@
 </body>
 </html>
 
-
 <!-- BLOG PAGE -->
-
-<!-- Save as blog.html -->
 
 
 
